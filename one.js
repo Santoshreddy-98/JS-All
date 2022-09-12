@@ -9,8 +9,8 @@
 // result=Math.pow(9,3);
 // console.log(result)
 
-// if else statement
-// let n = 987;
+// if else statements
+// let n = 982;
 // if(n/2 ===0)
 // console.log("it is a even number")
 // else
