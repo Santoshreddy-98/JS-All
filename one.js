@@ -141,8 +141,21 @@
 
 // splice method in arrays.
 // let data=[9,8,7,6,5,4]
-// data.splice(2,2) //first"2"is index number of array&2nd "2" is no.of values you want to remove
+// data.splice(2,2) ----->//first"2"is index number of array&2nd "2" is no.of values you want to remove
 // console.log(data)
+//====================================
+//PALINDROME
+// var value= [1,2,3,3,2,1];
+// var revValue = value.toString().split('').reverse().join('') ;
+// console.log(revValue)
+// console.log(value)
+
+// var strValue = value.toString();
+// if(revValue === value){
+//     console.log("it is a palindrome");
+// }
+// else(console.log("not a palindrome"));
+//=========================================
 
 // for of loop in arrays
 // let data=[{id:23445}]
@@ -291,15 +304,15 @@
 
 // factorial using recursion
 // function factorial(n){
-//     if(n==0)
+//     if(n===0)
 //     return 1
 //     else
-//     return n*factorial(n-1)
-// }
-// let m=170
+//      return n*factorial(n-1)
+//  }
+//  let m=6
 // console.log(factorial(m))
 
-// bind method
+// BIND METHOD
 // const Person={
 //     name:"santosh",
 //     walk(){
@@ -396,6 +409,53 @@
 // console.log(hoistedVariable); // outputs 3 even when the variable is declared after it
 // var hoistedVariable;
 //-----
+// let arr = [3, 4, 5, 6];
+
+// let modifiedArr = arr.map(function(element){
+//     return element *3;
+// });
+
+// let newarr=modifiedArr.map((num)=>{
+//     return num+10;
+
+// })
+// console.log(newarr)
+//--------
+//hoisting
+// hoistedVariable = 3;
+// console.log(hoistedVariable); // outputs 3 even when the variable is declared after it
+// var hoistedVariable;
+//------
+//CONVERT FIRST HALF OF STRING TO UPPERCASE AND SECOND HALF OF THE STRING TO LOWERCASE
+// let string = "terminator"
+
+// let length = string.length
+// if(length<2){
+//     console.log(string)
+    
+// }
+
+// let isOdd = length % 2 !== 0
+// let middle = Math.floor(string.length/2);
+// isOdd && (middle=middle+1)
+
+// let firsthalf=string.substring(0,middle)
+// let secondhalf=string.substring(middle,length)
+// let output=firsthalf.toUpperCase()+secondhalf.toLowerCase()
+// console.log(output)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
